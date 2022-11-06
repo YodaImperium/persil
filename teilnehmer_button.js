@@ -27,7 +27,6 @@ class Button extends React.Component {
     }
 }
 
-
 const domContainer = document.querySelector('#Teilnehmer-Button');
 const root = ReactDOM.createRoot(domContainer);
 

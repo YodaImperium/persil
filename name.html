@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"> 
         <title>Name</title>
     </head>
     <body>
         <h1>Wie ist dein Name?</h1>
-        <form action="https://ptsv2.com/t/r4qqa-1667579801/post" method="get">
-            <input type="text" id="name" name="user_name" style="margin-top: 6px;"/>
-            <p>
-                    <button type="submit"
-                    style="font-size: large;
-                    margin-bottom: 6px;
-                    padding-left: 60px;
-                    padding-top: 4%;
-                    padding-right: 60px;
-                    padding-bottom: 4%;
-                    background-color: rgb(41, 41, 41);
-                    color: aliceblue;"
-                    onsubmit="open('Teilnehmer.html')">
-                    Eingabe</button>
-            </p>
-        </form>
-        <script>
+        <form>
             
-        </script>
+            <div id="eingabe_input"></div>
+            <div id="eingabe_button"></div>
+        </form>
+
+        <!--Loading React.-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="eingabe-input.js" type="text/babel"></script>
+        <script src="eingabe-button.js" type="text/babel"></script>
     </body>
 </html>
