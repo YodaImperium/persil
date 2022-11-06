@@ -1,13 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="de">
     <head>
-        <link rel="stylesheet" href="../styles.css">
-        <script lang="Javascript">
-            function send (data) {
-                postMessage(data, "http://127.0.0.1:5500/Nerdquizz/Host.html");
-            }
-        </script>
+        <link rel="stylesheet" href="styles.css">
         <title>
             Frage
         </title>
@@ -17,19 +11,11 @@
             Wofür steht HTML?
         </h1> 
         <p>
-            <a href="http://127.0.0.1:5500/Nerdquizz/Host.html">
-                <p>
-                    <button type="submit" style="border-radius: 200%;padding: 100px;"
-                    onsubmit="send(ADAawadawda)">
-                    </button>
-                    
-                </p>
-            </a>
+        <div id="Teilnehmer-Button"></div>
         </p>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="like_button.js" type="text/babel"></script>
     </body>
 </html>
-
-<!-- Zeit ausgeben
-    <button type="button"
-            onclick="document.getElementById('time').innerHTML = Date.now()">
-            </button>-->
