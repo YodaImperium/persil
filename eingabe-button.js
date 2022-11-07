@@ -15,7 +15,7 @@ class eingabe_button extends React.Component {
                 body: JSON.stringify(output.textContent),
                 window: null
           })
-          open('Teilnehmer.html', '_self')
+          open('Teilnehmer.html', '_blank')
       }  
 
       render(){
