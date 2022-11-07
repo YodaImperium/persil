@@ -6,17 +6,16 @@
     </head>
     <body>
         <h1>Wie ist dein Name?</h1>
-        <form>
-            
-            <div id="eingabe_input"></div>
+        <form id="form">    
+            <input type="text" name="user_name" placeholder="DeinName" value="">      
+            <!--<div id="eingabe_input"></div>-->
             <div id="eingabe_button"></div>
         </form>
-
+        <output id="output"></output>
         <!--Loading React.-->
         <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
         <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-        <script src="eingabe-input.js" type="text/babel"></script>
         <script src="eingabe-button.js" type="text/babel"></script>
     </body>
 </html>
