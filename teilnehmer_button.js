@@ -17,7 +17,7 @@ class Button extends React.Component {
             mode: 'cors',
             body: JSON.stringify(jsonData)
         })
-        open('Main.html')
+        open('Erster.html')
     }
 
     render() {
