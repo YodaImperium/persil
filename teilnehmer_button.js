@@ -16,8 +16,9 @@ class Button extends React.Component {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify(jsonData)
+        }).then(() => {
+          open('Erster.html', '_self')
         })
-        open('Erster.html')
     }
 
     render() {
